@@ -1,0 +1,83 @@
+body{
+    background: rgb(12, 12, 14);
+    background-image: url(backkground-imag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+svg{
+    display: inline-block;
+    padding-top: 10px;
+}
+.nav-elements{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.nav-elements:hover{
+    color: blue;
+}
+.nav-bar{
+    display: inline-block;
+
+    
+}
+.main-cover{
+    display: grid;
+    grid-template: 50px auto/ 58px auto;
+    gap: 30px;
+}
+.container1{
+    grid-column: 2;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+    
+}
+.container1 > div{
+
+    
+    width: 70px;
+    height: 60px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.container2{
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container2 > div{
+
+    margin: 10px;
+    border-radius: 50px;
+    padding-left: 4px;
+}
+.container2>div:hover{
+    background-color: rgb(83, 83, 125);
+    transition: 0.5s;
+}
+.container3{
+    grid-column: 2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    text-align: center;
+    height: 100vh;
+}
+.blue{
+    color: blue;
+}
+.yellow{
+    color: yellow;
+}
+.small-text{
+    font-size: x-small;
+}
