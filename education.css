@@ -118,6 +118,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10%;
 
 }
 .container2 > div{

@@ -1,9 +1,19 @@
-body{
+body {
     background: rgb(12, 12, 14);
     background-image: url(backkground-imag.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
+
+
+
+
+
+
+
+
 
 svg{
     display: inline-block;
@@ -43,6 +53,7 @@ svg{
     flex-grow: 1;
     flex-shrink: 0;
     border-radius: 5px;
+
 }
 
 .container2{
@@ -62,17 +73,7 @@ svg{
     background-color: rgb(83, 83, 125);
     transition: 0.5s;
 }
-.container3{
-    grid-column: 2;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-    text-align: center;
-    height: 100vh;
-}
+
 .blue{
     color: blue;
 }
@@ -81,4 +82,89 @@ svg{
 }
 .small-text{
     font-size: x-small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectname {
+    text-align: center;
+    background-color: rgba(32, 29, 29, 0);
+    backdrop-filter: blur(10px);
+}
+
+.projectnameholder {
+    width: 90%;
+    margin: 10px;
+    background-color: rgba(32, 29, 29, 0);
+    color: white
+    font-style: oblique;
+}
+
+.popdown {
+    background-color:rgb(92, 92, 219);
+    backdrop-filter: blur(15px);
+    color: aliceblue;
+    opacity: 0.7;
+    margin: 20px;
+}
+
+.buttonForGitHubCode {
+    background-color: aliceblue;
+    box-shadow: 5px 5px 2px rgb(60, 60, 88);
+    border-radius: 5px;
+}
+
+.span1 {
+    color: yellow ;
+}
+
+.linkToGitHub {
+    border: 2px;
+    box-shadow: 4px 4px 2px rgb(31, 31, 102);
+    border-color: rgb(28, 92, 115);
+    border-radius: 5px;
+    border-style: solid;
+    padding: 3px;
+}
+
+
+.headerProjectsPage {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    color: rgb(215, 177, 5);
+    
+}
+.p1{
+    display: inline-block;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
 }
